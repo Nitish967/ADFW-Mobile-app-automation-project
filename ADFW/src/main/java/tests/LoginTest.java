@@ -59,3 +59,5 @@ public class LoginTest extends BaseTest {
         ReportPrint.pass("✅ Login successful → Navigated to Interest Page");
     }
 }
+
+//login test page pushed

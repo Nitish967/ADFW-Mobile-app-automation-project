@@ -21,3 +21,4 @@ public class InterestsTest extends BaseTest {
         ReportPrint.pass("Interest page completed and navigated to Home page");
     }
 }
+//intrest test page pushed

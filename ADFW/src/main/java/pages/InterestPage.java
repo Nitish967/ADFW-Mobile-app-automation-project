@@ -76,3 +76,4 @@ public class InterestPage {
         clickContinue();
     }
 }
+//intrest page pushed
