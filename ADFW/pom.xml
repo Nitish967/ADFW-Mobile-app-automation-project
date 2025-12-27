@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+         https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ADFWprojectapp</groupId>
+    <artifactId>ADFW</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <dependencies>
+
+        <!-- ✅ Selenium (COMPATIBLE with Appium 8.5.1) -->
+        <dependency>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.11.0</version>
+        </dependency>
+
+        <!-- ✅ Appium Java Client -->
+        <dependency>
+            <groupId>io.appium</groupId>
+            <artifactId>java-client</artifactId>
+            <version>8.5.1</version>
+        </dependency>
+
+        <!-- ✅ TestNG -->
+        <dependency>
+            <groupId>org.testng</groupId>
+            <artifactId>testng</artifactId>
+            <version>7.11.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- ✅ Logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.13</version>
+        </dependency>
+
+        <!-- ✅ Extent Reports -->
+        <dependency>
+            <groupId>com.aventstack</groupId>
+            <artifactId>extentreports</artifactId>
+            <version>5.1.1</version>
+        </dependency>
+
+    </dependencies>
+
+</project>

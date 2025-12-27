@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ADF Automation Test Suite">
+
+    <test name="Complete Application Flow">
+
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.InterestsTest"/>
+        </classes>
+
+    </test>
+
+</suite>

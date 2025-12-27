@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ADF Automation Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Complete Application Flow(failed)">
+    <classes>
+      <class name="tests.InterestsTest">
+        <methods>
+          <include name="interestPageCompleteFlow"/>
+          <include name="setUpSuite"/>
+          <include name="tearDownSuite"/>
+        </methods>
+      </class> <!-- tests.InterestsTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="setUpSuite"/>
+          <include name="tearDownSuite"/>
+          <include name="loginNegativeTests"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+    </classes>
+  </test> <!-- Complete Application Flow(failed) -->
+</suite> <!-- Failed suite [ADF Automation Test Suite] -->
